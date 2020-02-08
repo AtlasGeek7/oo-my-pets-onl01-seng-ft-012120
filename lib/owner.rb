@@ -36,8 +36,6 @@ class Owner
     return Cat.new(name,self)
   end
 
-
-
   def feed_cats
     self.cats.each { |c| c.mood = "happy" }
   end
